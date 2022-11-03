@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.header{
+    border-bottom: 1px solid black;
+    background-image: url("slider.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    border-bottom: 1px solid #bbbbbb;
+}
+a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    left: 50px;
+    position: relative;
+    top: 35px;
+}
+
+.logo a {
+    color: #dddddd;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0;
+    line-height: 36px;
+    color: #777;
+    font-size: 14px;
+    position: relative;
+    display: block;
+    padding: 0;
+}
+
+a:hover {
+    color: #e41a1a;
+    text-decoration: none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid: 20px;
+}
+.text-primary {
+    color: #e41a1a !important;
+}
+.menu-bar ul{
+    list-style-type: none;
+}
+.menu-bar li{
+    float: left;
+}
+.menu-bar a{
+     text-decoration: none;
+     padding: 16px 22px;
+     display: inline-block;
+     line-height: 80px;
+     text-transform: capitalize;
+     font-weight: bolder;
+     font-size: 15px;
+}
+.button{
+    position: relative;
+    top: 35px;
+    right: 0px;
+}
+.button button{
+    padding: 12px 30px;
+    background: #e41a1a;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #eeeeee;
+    font-weight: bolder;
+}
